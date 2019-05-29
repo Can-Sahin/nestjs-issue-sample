@@ -14,4 +14,4 @@ Middleware's `console.log()` is not getting hit with current the pathless contro
 
 However, swtich to `@Controller('test')` in `app.controller` and this time middleware gets hit when you go to `localhost:3000/app/test`
 
-> Hint: There is a global prefix `app` in `app.module`
+> Hint: There is a global prefix `app` in `main`
